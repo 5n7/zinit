@@ -1455,7 +1455,6 @@ builtin source "${ZINIT[BIN_DIR]}/zinit-side.zsh" || {
       cygwin '(cyg|-|_|)win(dows|32|64|))'
       msys   '(cyg|-|_|)win(dows|32|64|))'
       windows '(cyg|-|_|)win(dows|32|64|))'
-      android '(apk|android)'
     )
 
     local -a list init_list
